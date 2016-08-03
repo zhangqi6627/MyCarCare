@@ -1,0 +1,194 @@
+07-23 05:52:58.160: E/logwrapper(41): executing /system/bin/e2fsck failed: No such file or directory
+07-23 05:52:58.200: E/logwrapper(44): executing /system/bin/e2fsck failed: No such file or directory
+07-23 05:53:04.780: E/SurfaceFlinger(52): hwcomposer module not found
+07-23 05:53:06.050: E/SurfaceFlinger(52): ro.sf.lcd_density must be defined as a build property
+07-23 05:53:06.570: E/AudioFlinger(55): int android::load_audio_interface(const char*, audio_hw_device_t**) couldn't load audio hw module audio.r_submix (No such file or directory)
+07-23 05:53:13.380: E/memtrack(53): Couldn't load memtrack module (No such file or directory)
+07-23 05:53:13.380: E/android.os.Debug(53): failed to load memtrack module: -2
+07-23 05:53:22.880: E/EmojiFactory_jni(53): Failed to load libemoji.so: dlopen failed: library "libemoji.so" not found
+07-23 05:53:24.970: E/logwrapper(280): executing /system/bin/ip failed: No such file or directory
+07-23 05:53:24.980: E/logwrapper(281): executing /system/bin/ip failed: No such file or directory
+07-23 05:53:25.000: E/logwrapper(282): executing /system/bin/ip failed: No such file or directory
+07-23 05:53:25.000: E/logwrapper(283): executing /system/bin/ip failed: No such file or directory
+07-23 05:53:25.060: E/logwrapper(284): executing /system/bin/ip failed: No such file or directory
+07-23 05:53:25.070: E/logwrapper(285): executing /system/bin/ip failed: No such file or directory
+07-23 05:53:25.110: E/logwrapper(286): executing /system/bin/ip failed: No such file or directory
+07-23 05:53:43.960: E/PowerManagerService-JNI(371): Couldn't load power module (No such file or directory)
+07-23 05:53:44.660: E/SurfaceFlinger(52): ro.sf.lcd_density must be defined as a build property
+07-23 05:53:51.980: E/ConsumerIrService(371): Can't open consumer IR HW Module, error: -2
+07-23 05:53:51.990: E/libsuspend(371): Error opening /sys/power/autosleep: No such file or directory
+07-23 05:53:52.470: E/EventHub(371): could not get driver version for /dev/input/mouse0, Not a typewriter
+07-23 05:53:52.550: E/EventHub(371): could not get driver version for /dev/input/mice, Not a typewriter
+07-23 05:53:54.260: E/MobileDataStateTracker(371): default: Ignoring feature request because could not acquire PhoneService
+07-23 05:53:54.260: E/MobileDataStateTracker(371): default: Could not enable APN type "default"
+07-23 05:53:55.500: E/SELinux(371): selinux_android_restorecon:  Error restoring context for /cache/backup (No such file or directory)
+07-23 05:53:55.500: E/LocalTransport(371): SELinux restorecon failed for /cache/backup
+07-23 05:53:57.670: E/VoldConnector(371): NDC Command {3 volume mount /storage/sdcard} took too long (1298ms)
+07-23 05:53:59.040: E/SoundPool(422): error loading /system/media/audio/ui/Lock.ogg
+07-23 05:53:59.040: E/SoundPool(422): error loading /system/media/audio/ui/Unlock.ogg
+07-23 05:53:59.720: E/VoldConnector(371): NDC Command {4 asec list} took too long (621ms)
+07-23 05:53:59.850: E/NetdConnector(371): NDC Command {1 bandwidth enable} took too long (3460ms)
+07-23 05:54:00.560: E/NetdConnector(371): NDC Command {2 firewall disable} took too long (640ms)
+07-23 05:54:02.790: E/BluetoothAdapter(422): Bluetooth binder is null
+07-23 05:54:02.790: E/BluetoothAdapter(422): Bluetooth binder is null
+07-23 05:54:03.020: E/BluetoothAdapter(422): Bluetooth binder is null
+07-23 05:54:03.290: E/NetdConnector(371): NDC Command {5 firewall disable} took too long (611ms)
+07-23 05:54:03.760: E/BluetoothAdapter(422): Bluetooth binder is null
+07-23 05:54:04.720: E/LocationManagerService(371): no geocoder provider found
+07-23 05:54:04.790: E/FlpHardwareProvider(371): Error hw_get_module 'flp': -2
+07-23 05:54:04.800: E/FlpHardwareProvider(371): Error hw_get_module 'flp': -2
+07-23 05:54:04.800: E/LocationManagerService(371): No FusedProvider found.
+07-23 05:54:04.910: E/LocationManagerService(371): no geofence provider found
+07-23 05:54:05.960: E/BluetoothAdapter(422): Bluetooth binder is null
+07-23 05:54:13.910: E/BluetoothAdapter(521): Bluetooth binder is null
+07-23 05:54:15.580: E/BluetoothAdapter(521): Bluetooth binder is null
+07-23 05:54:17.650: E/BluetoothAdapter(521): Bluetooth binder is null
+07-23 05:54:18.980: E/memtrack(605): Couldn't load memtrack module (No such file or directory)
+07-23 05:54:18.980: E/android.os.Debug(605): failed to load memtrack module: -2
+07-23 05:54:33.200: E/libEGL(52): called unimplemented OpenGL ES API
+07-23 05:54:33.200: E/libEGL(52): called unimplemented OpenGL ES API
+07-23 05:54:33.200: E/libEGL(52): called unimplemented OpenGL ES API
+07-23 05:54:33.200: E/libEGL(52): called unimplemented OpenGL ES API
+07-23 05:54:33.200: E/SurfaceFlinger(52): glCheckFramebufferStatusOES error 1991731439
+07-23 05:54:33.200: E/SurfaceFlinger(52): got GL_FRAMEBUFFER_COMPLETE_OES error while taking screenshot
+07-23 05:54:33.200: E/libEGL(52): called unimplemented OpenGL ES API
+07-23 05:54:33.200: E/libEGL(52): called unimplemented OpenGL ES API
+07-23 05:54:39.970: E/NetdConnector(371): NDC Command {12 bandwidth setiquota eth0 9223372036854775807} took too long (2069ms)
+07-23 05:54:40.150: E/NetdConnector(371): NDC Command {11 bandwidth gettetherstats} took too long (2298ms)
+07-23 05:54:52.270: E/ConnectivityService(371): startUsingNetworkFeature took too long: 4127ms
+07-23 05:54:52.890: E/logwrapper(708): executing /system/bin/ip failed: No such file or directory
+07-23 05:54:52.930: E/ConnectivityService(371): Exception trying to add a route: java.lang.IllegalStateException: command '18 interface fwmark exempt add 10.0.2.2/32' failed with '400 18 Failed to add exemption rule (File exists)'
+07-23 05:54:53.040: E/logwrapper(710): executing /system/bin/ip failed: No such file or directory
+07-23 05:54:53.080: E/ConnectivityService(371): Exception trying to add a route: java.lang.IllegalStateException: command '20 interface fwmark exempt add 10.0.2.3/32' failed with '400 20 Failed to add exemption rule (File exists)'
+07-23 05:54:53.290: E/logwrapper(713): executing /system/bin/ip failed: No such file or directory
+07-23 05:54:53.310: E/ConnectivityService(371): Exception trying to add a route: java.lang.IllegalStateException: command '22 interface fwmark exempt add 10.0.2.2/32' failed with '400 22 Failed to add exemption rule (File exists)'
+07-23 05:54:53.410: E/logwrapper(715): executing /system/bin/ip failed: No such file or directory
+07-23 05:54:53.430: E/ConnectivityService(371): Exception trying to add a route: java.lang.IllegalStateException: command '24 interface fwmark exempt add 10.0.2.4/32' failed with '400 24 Failed to add exemption rule (File exists)'
+07-23 05:54:53.450: E/logwrapper(716): executing /system/bin/ip failed: No such file or directory
+07-23 05:54:53.460: E/SecondaryTablController(49): ip route add failed: /system/bin/ip route add 10.0.2.2/32 via 0.0.0.0 dev eth0 table 60
+07-23 05:54:53.460: E/ConnectivityService(371): Exception trying to add a route: java.lang.IllegalStateException: command '25 interface route add eth0 secondary 10.0.2.2 32 0.0.0.0' failed with '400 25 ip route modification failed (No such device)'
+07-23 05:54:53.470: E/BluetoothAdapter(692): Bluetooth binder is null
+07-23 05:54:53.500: E/logwrapper(717): executing /system/bin/ip failed: No such file or directory
+07-23 05:54:53.510: E/SecondaryTablController(49): ip route add failed: /system/bin/ip route add 0.0.0.0/0 via 10.0.2.2 dev eth0 table 60
+07-23 05:54:53.510: E/ConnectivityService(371): Exception trying to add a route: java.lang.IllegalStateException: command '26 interface route add eth0 secondary 0.0.0.0 0 10.0.2.2' failed with '400 26 ip route modification failed (No such device)'
+07-23 05:54:54.720: E/NetdConnector(371): NDC Command {28 bandwidth removeiquota eth0} took too long (988ms)
+07-23 05:54:54.870: E/BluetoothAdapter(371): Bluetooth binder is null
+07-23 05:54:54.870: E/BluetoothAdapter(371): Bluetooth binder is null
+07-23 05:54:54.930: E/SoundPool(371): error loading /system/media/audio/ui/Effect_Tick.ogg
+07-23 05:54:54.930: E/SoundPool(371): error loading /system/media/audio/ui/Effect_Tick.ogg
+07-23 05:54:54.930: E/SoundPool(371): error loading /system/media/audio/ui/Effect_Tick.ogg
+07-23 05:54:54.930: E/SoundPool(371): error loading /system/media/audio/ui/Effect_Tick.ogg
+07-23 05:54:54.930: E/SoundPool(371): error loading /system/media/audio/ui/Effect_Tick.ogg
+07-23 05:54:54.930: E/SoundPool(371): error loading /system/media/audio/ui/KeypressStandard.ogg
+07-23 05:54:54.930: E/SoundPool(371): error loading /system/media/audio/ui/KeypressSpacebar.ogg
+07-23 05:54:55.050: E/SoundPool(371): error loading /system/media/audio/ui/KeypressDelete.ogg
+07-23 05:54:55.050: E/SoundPool(371): error loading /system/media/audio/ui/KeypressReturn.ogg
+07-23 05:54:55.050: E/SoundPool(371): error loading /system/media/audio/ui/KeypressInvalid.ogg
+07-23 05:54:56.260: E/NetdConnector(371): NDC Command {30 bandwidth setiquota eth0 9223372036854775807} took too long (1528ms)
+07-23 05:54:57.150: E/NetdConnector(371): NDC Command {31 bandwidth removeiquota eth0} took too long (851ms)
+07-23 05:54:57.610: E/NetdConnector(371): NDC Command {29 interface route add eth0 default 10.0.2.2 32 0.0.0.0} took too long (3024ms)
+07-23 05:54:58.740: E/NetdConnector(371): NDC Command {32 bandwidth setiquota eth0 9223372036854775807} took too long (1590ms)
+07-23 05:54:58.820: E/logwrapper(805): executing /system/bin/ip failed: No such file or directory
+07-23 05:54:59.010: E/NetdConnector(371): NDC Command {33 interface fwmark exempt add 10.0.2.2/32} took too long (1396ms)
+07-23 05:54:59.010: E/ConnectivityService(371): Exception trying to add a route: java.lang.IllegalStateException: command '33 interface fwmark exempt add 10.0.2.2/32' failed with '400 33 Failed to add exemption rule (File exists)'
+07-23 05:54:59.440: E/logwrapper(807): executing /system/bin/ip failed: No such file or directory
+07-23 05:54:59.470: E/ConnectivityService(371): Exception trying to add a route: java.lang.IllegalStateException: command '36 interface fwmark exempt add 74.125.23.101/32' failed with '400 36 Failed to add exemption rule (File exists)'
+07-23 05:54:59.980: E/logwrapper(812): executing /system/bin/ip failed: No such file or directory
+07-23 05:54:59.990: E/ConnectivityService(371): Exception trying to add a route: java.lang.IllegalStateException: command '38 interface fwmark exempt add 10.0.2.2/32' failed with '400 38 Failed to add exemption rule (File exists)'
+07-23 05:55:00.990: E/logwrapper(827): executing /system/bin/ip failed: No such file or directory
+07-23 05:55:01.020: E/NetdConnector(371): NDC Command {40 interface fwmark exempt add 74.125.23.100/32} took too long (1001ms)
+07-23 05:55:01.190: E/ConnectivityService(371): Exception trying to add a route: java.lang.IllegalStateException: command '40 interface fwmark exempt add 74.125.23.100/32' failed with '400 40 Failed to add exemption rule (File exists)'
+07-23 05:55:01.300: E/logwrapper(829): executing /system/bin/ip failed: No such file or directory
+07-23 05:55:01.310: E/ConnectivityService(371): Exception trying to add a route: java.lang.IllegalStateException: command '42 interface fwmark exempt add 10.0.2.2/32' failed with '400 42 Failed to add exemption rule (File exists)'
+07-23 05:55:01.390: E/logwrapper(832): executing /system/bin/ip failed: No such file or directory
+07-23 05:55:01.400: E/ConnectivityService(371): Exception trying to add a route: java.lang.IllegalStateException: command '44 interface fwmark exempt add 74.125.23.113/32' failed with '400 44 Failed to add exemption rule (File exists)'
+07-23 05:55:02.050: E/logwrapper(842): executing /system/bin/ip failed: No such file or directory
+07-23 05:55:02.060: E/SecondaryTablController(49): ip route del failed: /system/bin/ip route del 10.0.2.2/32 via 0.0.0.0 dev eth0 table 60
+07-23 05:55:02.080: E/logwrapper(843): executing /system/bin/ip failed: No such file or directory
+07-23 05:55:02.090: E/SecondaryTablController(49): ip route del failed: /system/bin/ip route del 0.0.0.0/0 via 10.0.2.2 dev eth0 table 60
+07-23 05:55:03.250: E/NetdConnector(371): NDC Command {52 bandwidth removeiquota eth0} took too long (1041ms)
+07-23 05:55:03.520: E/NetdConnector(371): NDC Command {53 bandwidth gettetherstats} took too long (901ms)
+07-23 05:55:05.390: E/NetdConnector(371): NDC Command {54 bandwidth setiquota eth0 9223372036854775807} took too long (2101ms)
+07-23 05:55:06.270: E/NetdConnector(371): NDC Command {55 bandwidth removeiquota eth0} took too long (842ms)
+07-23 05:55:08.020: E/NetdConnector(371): NDC Command {56 bandwidth setiquota eth0 9223372036854775807} took too long (1750ms)
+07-23 05:55:21.330: E/memtrack(937): Couldn't load memtrack module (No such file or directory)
+07-23 05:55:21.330: E/android.os.Debug(937): failed to load memtrack module: -2
+07-23 05:55:21.480: E/BluetoothAdapter(692): Bluetooth binder is null
+07-23 05:55:22.300: E/libEGL(52): called unimplemented OpenGL ES API
+07-23 05:55:22.300: E/libEGL(52): called unimplemented OpenGL ES API
+07-23 05:55:22.300: E/libEGL(52): called unimplemented OpenGL ES API
+07-23 05:55:22.300: E/libEGL(52): called unimplemented OpenGL ES API
+07-23 05:55:22.300: E/SurfaceFlinger(52): glCheckFramebufferStatusOES error 1991731439
+07-23 05:55:22.300: E/SurfaceFlinger(52): got GL_FRAMEBUFFER_COMPLETE_OES error while taking screenshot
+07-23 05:55:22.300: E/libEGL(52): called unimplemented OpenGL ES API
+07-23 05:55:22.300: E/libEGL(52): called unimplemented OpenGL ES API
+07-23 05:55:25.740: E/BluetoothAdapter(692): Bluetooth binder is null
+07-23 05:55:29.950: E/zhangqi(973): imageFile : 1 files : 18
+07-23 05:55:30.230: E/zhangqi(973): cars size : 52
+07-23 05:55:31.360: E/BluetoothAdapter(692): Bluetooth binder is null
+07-23 05:55:34.030: E/libEGL(52): called unimplemented OpenGL ES API
+07-23 05:55:34.040: E/libEGL(52): called unimplemented OpenGL ES API
+07-23 05:55:34.040: E/libEGL(52): called unimplemented OpenGL ES API
+07-23 05:55:34.040: E/libEGL(52): called unimplemented OpenGL ES API
+07-23 05:55:34.040: E/SurfaceFlinger(52): glCheckFramebufferStatusOES error 1991731439
+07-23 05:55:34.040: E/SurfaceFlinger(52): got GL_FRAMEBUFFER_COMPLETE_OES error while taking screenshot
+07-23 05:55:34.040: E/libEGL(52): called unimplemented OpenGL ES API
+07-23 05:55:34.040: E/libEGL(52): called unimplemented OpenGL ES API
+07-23 05:55:34.070: E/SoundPool(371): error loading /system/media/audio/ui/Effect_Tick.ogg
+07-23 05:55:34.070: E/SoundPool(371): error loading /system/media/audio/ui/Effect_Tick.ogg
+07-23 05:55:34.070: E/SoundPool(371): error loading /system/media/audio/ui/Effect_Tick.ogg
+07-23 05:55:34.070: E/SoundPool(371): error loading /system/media/audio/ui/Effect_Tick.ogg
+07-23 05:55:34.080: E/SoundPool(371): error loading /system/media/audio/ui/Effect_Tick.ogg
+07-23 05:55:34.080: E/SoundPool(371): error loading /system/media/audio/ui/KeypressStandard.ogg
+07-23 05:55:34.080: E/SoundPool(371): error loading /system/media/audio/ui/KeypressSpacebar.ogg
+07-23 05:55:34.080: E/SoundPool(371): error loading /system/media/audio/ui/KeypressDelete.ogg
+07-23 05:55:34.080: E/SoundPool(371): error loading /system/media/audio/ui/KeypressReturn.ogg
+07-23 05:55:34.080: E/SoundPool(371): error loading /system/media/audio/ui/KeypressInvalid.ogg
+07-23 05:55:38.572: E/SQLiteLog(973): (1) no such column: brand
+07-23 05:55:38.682: E/AndroidRuntime(973): FATAL EXCEPTION: main
+07-23 05:55:38.682: E/AndroidRuntime(973): Process: com.quet.zq.carcare, PID: 973
+07-23 05:55:38.682: E/AndroidRuntime(973): android.database.sqlite.SQLiteException: no such column: brand (code 1): , while compiling: SELECT name_cn, level, length, width, height, wheelbase FROM cars WHERE brand=? and name=? and deploy=?
+07-23 05:55:38.682: E/AndroidRuntime(973): 	at android.database.sqlite.SQLiteConnection.nativePrepareStatement(Native Method)
+07-23 05:55:38.682: E/AndroidRuntime(973): 	at android.database.sqlite.SQLiteConnection.acquirePreparedStatement(SQLiteConnection.java:889)
+07-23 05:55:38.682: E/AndroidRuntime(973): 	at android.database.sqlite.SQLiteConnection.prepare(SQLiteConnection.java:500)
+07-23 05:55:38.682: E/AndroidRuntime(973): 	at android.database.sqlite.SQLiteSession.prepare(SQLiteSession.java:588)
+07-23 05:55:38.682: E/AndroidRuntime(973): 	at android.database.sqlite.SQLiteProgram.<init>(SQLiteProgram.java:58)
+07-23 05:55:38.682: E/AndroidRuntime(973): 	at android.database.sqlite.SQLiteQuery.<init>(SQLiteQuery.java:37)
+07-23 05:55:38.682: E/AndroidRuntime(973): 	at android.database.sqlite.SQLiteDirectCursorDriver.query(SQLiteDirectCursorDriver.java:44)
+07-23 05:55:38.682: E/AndroidRuntime(973): 	at android.database.sqlite.SQLiteDatabase.rawQueryWithFactory(SQLiteDatabase.java:1314)
+07-23 05:55:38.682: E/AndroidRuntime(973): 	at android.database.sqlite.SQLiteDatabase.queryWithFactory(SQLiteDatabase.java:1161)
+07-23 05:55:38.682: E/AndroidRuntime(973): 	at android.database.sqlite.SQLiteDatabase.query(SQLiteDatabase.java:1032)
+07-23 05:55:38.682: E/AndroidRuntime(973): 	at android.database.sqlite.SQLiteDatabase.query(SQLiteDatabase.java:1200)
+07-23 05:55:38.682: E/AndroidRuntime(973): 	at com.quet.zq.carcare.data.DatabaseHelper.getCarInfo(DatabaseHelper.java:70)
+07-23 05:55:38.682: E/AndroidRuntime(973): 	at com.quet.zq.carcare.CarSelectActivity$3.onItemSelected(CarSelectActivity.java:87)
+07-23 05:55:38.682: E/AndroidRuntime(973): 	at android.widget.AdapterView.fireOnSelected(AdapterView.java:893)
+07-23 05:55:38.682: E/AndroidRuntime(973): 	at android.widget.AdapterView.access$200(AdapterView.java:48)
+07-23 05:55:38.682: E/AndroidRuntime(973): 	at android.widget.AdapterView$SelectionNotifier.run(AdapterView.java:861)
+07-23 05:55:38.682: E/AndroidRuntime(973): 	at android.os.Handler.handleCallback(Handler.java:733)
+07-23 05:55:38.682: E/AndroidRuntime(973): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+07-23 05:55:38.682: E/AndroidRuntime(973): 	at android.os.Looper.loop(Looper.java:137)
+07-23 05:55:38.682: E/AndroidRuntime(973): 	at android.app.ActivityThread.main(ActivityThread.java:4998)
+07-23 05:55:38.682: E/AndroidRuntime(973): 	at java.lang.reflect.Method.invokeNative(Native Method)
+07-23 05:55:38.682: E/AndroidRuntime(973): 	at java.lang.reflect.Method.invoke(Method.java:515)
+07-23 05:55:38.682: E/AndroidRuntime(973): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:777)
+07-23 05:55:38.682: E/AndroidRuntime(973): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:593)
+07-23 05:55:38.682: E/AndroidRuntime(973): 	at dalvik.system.NativeStart.main(Native Method)
+07-23 05:55:39.152: E/libEGL(52): called unimplemented OpenGL ES API
+07-23 05:55:39.162: E/libEGL(52): called unimplemented OpenGL ES API
+07-23 05:55:39.162: E/libEGL(52): called unimplemented OpenGL ES API
+07-23 05:55:39.162: E/libEGL(52): called unimplemented OpenGL ES API
+07-23 05:55:39.162: E/SurfaceFlinger(52): glCheckFramebufferStatusOES error 1991731439
+07-23 05:55:39.162: E/SurfaceFlinger(52): got GL_FRAMEBUFFER_COMPLETE_OES error while taking screenshot
+07-23 05:55:39.162: E/libEGL(52): called unimplemented OpenGL ES API
+07-23 05:55:39.162: E/libEGL(52): called unimplemented OpenGL ES API
+07-23 05:55:42.682: E/SoundPool(371): error loading /system/media/audio/ui/Effect_Tick.ogg
+07-23 05:55:42.692: E/SoundPool(371): error loading /system/media/audio/ui/Effect_Tick.ogg
+07-23 05:55:42.692: E/SoundPool(371): error loading /system/media/audio/ui/Effect_Tick.ogg
+07-23 05:55:42.692: E/SoundPool(371): error loading /system/media/audio/ui/Effect_Tick.ogg
+07-23 05:55:42.732: E/SoundPool(371): error loading /system/media/audio/ui/Effect_Tick.ogg
+07-23 05:55:42.732: E/SoundPool(371): error loading /system/media/audio/ui/KeypressStandard.ogg
+07-23 05:55:42.742: E/SoundPool(371): error loading /system/media/audio/ui/KeypressSpacebar.ogg
+07-23 05:55:42.742: E/SoundPool(371): error loading /system/media/audio/ui/KeypressDelete.ogg
+07-23 05:55:42.742: E/SoundPool(371): error loading /system/media/audio/ui/KeypressReturn.ogg
+07-23 05:55:42.742: E/SoundPool(371): error loading /system/media/audio/ui/KeypressInvalid.ogg
+07-23 05:55:44.052: E/InputDispatcher(371): channel 'b3f99458 com.quet.zq.carcare/com.quet.zq.carcare.CarSelectActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
