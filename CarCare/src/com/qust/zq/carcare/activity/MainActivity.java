@@ -50,8 +50,10 @@ public class MainActivity extends BaseActivity {
 			@Override
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
+				System.out.println("hello");
 			}
 		});
+		
 		et_username = (EditText) findViewById(R.id.et_username);
 		et_password = (EditText) findViewById(R.id.et_password);
 		imageView = (ImageView) findViewById(R.id.imageView);
