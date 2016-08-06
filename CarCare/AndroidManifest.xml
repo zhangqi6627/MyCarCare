@@ -18,8 +18,9 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.qust.zq.carcare.activity.MainActivity"
-            android:label="@string/activity_login" >
+            android:name="com.qust.zq.carcare.activity.SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -27,16 +28,24 @@
             </intent-filter>
         </activity>
         <activity
+            android:name="com.qust.zq.carcare.activity.MainActivity"
+            android:label="@string/activity_login"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+        </activity>
+        <activity
             android:name="com.qust.zq.carcare.activity.MyCarListActivity"
-            android:label="@string/activity_mycar" >
+            android:label="@string/activity_mycar"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
         </activity>
         <activity
             android:name="com.qust.zq.carcare.activity.CarSelectActivity"
-            android:label="@string/activity_select" >
+            android:label="@string/activity_select"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
         </activity>
         <activity
             android:name="com.qust.zq.carcare.activity.CarCareActivity"
-            android:label="@string/activity_carcare" >
+            android:label="@string/activity_carcare"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
         </activity>
     </application>
 

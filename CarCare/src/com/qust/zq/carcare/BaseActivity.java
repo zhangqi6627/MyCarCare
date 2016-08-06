@@ -4,14 +4,32 @@ import com.qust.zq.carcare.data.DatabaseHelper;
 import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class BaseActivity extends Activity {
 	private Context mContext = BaseActivity.this;
+	private TextView tv_title;
+	private LinearLayout container;
 	private DatabaseHelper dbHelper;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_base);
+		tv_title = (TextView) findViewById(R.id.tv_title);
+		tv_title.setText(getTitle());
+		container = (LinearLayout) findViewById(R.id.container);
+	}
+	protected void setTitleStr(int res) {
+		if (tv_title != null) {
+			tv_title.setText(res);
+		}
+	}
+	protected void setTitleStr(String title) {
+		if (tv_title != null) {
+			tv_title.setText(title);
+		}
 	}
 	/** œ‘ æœ˚œ¢ */
 	protected void showToast(String msg) {
