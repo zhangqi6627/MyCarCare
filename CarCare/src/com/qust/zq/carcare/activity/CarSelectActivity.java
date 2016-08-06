@@ -1,14 +1,15 @@
 package com.qust.zq.carcare.activity;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import com.qust.zq.carcare.R;
-import com.qust.zq.carcare.R.id;
-import com.qust.zq.carcare.R.layout;
 import com.qust.zq.carcare.BaseActivity;
 import com.qust.zq.carcare.data.DatabaseHelper;
 import com.qust.zq.carcare.utils.BitmapLoader;
+import android.app.AlertDialog;
 import android.content.ContentValues;
 import android.content.Context;
+import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.View;
@@ -39,7 +40,6 @@ public class CarSelectActivity extends BaseActivity {
 	private int selectedId = -1;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_select);
 		brands = (Spinner) findViewById(R.id.brands);
@@ -142,7 +142,10 @@ public class CarSelectActivity extends BaseActivity {
 				for (String column : columns) {
 					contentValues.put(column, carInfo.get(column));
 				}
-				db.insert("mycars", null, contentValues);
+				long id = db.insert("mycars", null, contentValues);
+				if (id != -1) {
+					startActivity(new Intent(mContext, CarCareActivity.class));
+				}
 			}
 		});
 	}

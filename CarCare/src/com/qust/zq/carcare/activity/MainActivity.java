@@ -11,7 +11,6 @@ import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.os.Handler;
-import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -43,17 +42,15 @@ public class MainActivity extends BaseActivity {
 			@Override
 			public void onClick(View arg0) {
 				startActivity(new Intent(MainActivity.this, MyCarListActivity.class));
+				finish();
 			}
 		});
 		btn_register = (Button) findViewById(R.id.btn_register);
 		btn_register.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
-				// TODO Auto-generated method stub
-				System.out.println("hello");
 			}
 		});
-		
 		et_username = (EditText) findViewById(R.id.et_username);
 		et_password = (EditText) findViewById(R.id.et_password);
 		imageView = (ImageView) findViewById(R.id.imageView);
@@ -62,7 +59,7 @@ public class MainActivity extends BaseActivity {
 		progressDialog.setCanceledOnTouchOutside(false);
 	}
 	private ProgressDialog progressDialog;
-	Handler handler = new Handler() {
+	private Handler handler = new Handler() {
 		public void handleMessage(android.os.Message msg) {
 			switch (msg.what) {
 			case 0:
@@ -74,7 +71,7 @@ public class MainActivity extends BaseActivity {
 				if (progressDialog != null) {
 					progressDialog.dismiss();
 				}
-				Toast.makeText(mContext, "Save images success", Toast.LENGTH_SHORT).show();
+				showToast("Save images success");
 				break;
 			}
 		};
@@ -94,7 +91,6 @@ public class MainActivity extends BaseActivity {
 		SQLiteDatabase db = dbHelper.getWritableDatabase();
 		db.execSQL("create table if not exists cars(id integer primary key autoincrement,brandname varchar,name_cn varchar,name varchar,level varchar,length varchar,width varchar,height varchar,wheelbase varchar,deploy varchar);");
 		ArrayList<HashMap<String, String>> cars = dbHelper.getAllCars(DatabaseHelper.TABLE_CARS);
-		Log.e("zhangqi", "cars size : " + cars.size());
 		if (cars != null && cars.size() == 0) {
 			dbHelper.insertData(db);
 		}

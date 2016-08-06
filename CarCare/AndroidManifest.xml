@@ -27,15 +27,15 @@
             </intent-filter>
         </activity>
         <activity
-			android:name="com.qust.zq.carcare.activity.MyCarListActivity" 
-			android:label="@string/activity_mycar">
+            android:name="com.qust.zq.carcare.activity.MyCarListActivity"
+            android:label="@string/activity_mycar" >
         </activity>
         <activity
             android:name="com.qust.zq.carcare.activity.CarSelectActivity"
             android:label="@string/activity_select" >
         </activity>
         <activity
-            android:name="com.qust.zq.carcare.activity.CarCare"
+            android:name="com.qust.zq.carcare.activity.CarCareActivity"
             android:label="@string/activity_carcare" >
         </activity>
     </application>

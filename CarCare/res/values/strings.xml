@@ -6,6 +6,7 @@
     <string name="activity_login">登陆界面</string>
     <string name="activity_select">选择车型</string>
     <string name="ok">确定</string>
+    <string name="addcar">添加车辆</string>
     <string name="activity_mycar">我的爱车</string>
     <string name="activity_carcare">保养信息</string>
 
