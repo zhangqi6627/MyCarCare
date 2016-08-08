@@ -142,6 +142,8 @@ public class CarSelectActivity extends BaseActivity {
 				long id = db.insert("mycars", null, contentValues);
 				if (id != -1) {
 					startActivity(new Intent(mContext, CarCareActivity.class));
+				}else{
+					showToast("该车型已存在");
 				}
 			}
 		});
