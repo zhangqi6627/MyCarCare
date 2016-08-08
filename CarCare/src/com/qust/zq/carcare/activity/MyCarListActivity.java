@@ -26,7 +26,7 @@ public class MyCarListActivity extends BaseActivity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_mycar);
+		addContentView(R.layout.activity_mycar);
 		myCars = getMyCars();
 		list_cars = (ListView) findViewById(R.id.list_cars);
 		myCarListAdapter = new MyCarListAdapter(mContext, myCars);

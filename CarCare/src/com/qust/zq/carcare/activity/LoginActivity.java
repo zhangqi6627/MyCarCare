@@ -14,25 +14,24 @@ import android.os.Handler;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.Toast;
 
-public class MainActivity extends BaseActivity {
-	private Context mContext = MainActivity.this;
+public class LoginActivity extends BaseActivity {
+	private Context mContext = LoginActivity.this;
 	private EditText et_username;
 	private EditText et_password;
-	private ImageView imageView;
 	private Button btn_login;
 	private Button btn_register;
-	private ListView listView;
 	private DatabaseHelper dbHelper;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
+		addContentView(R.layout.activity_login);
 		initView();
 		initData();
 	}
@@ -41,7 +40,7 @@ public class MainActivity extends BaseActivity {
 		btn_login.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
-				startActivity(new Intent(MainActivity.this, MyCarListActivity.class));
+				startActivity(new Intent(LoginActivity.this, MyCarListActivity.class));
 				finish();
 			}
 		});
@@ -53,7 +52,6 @@ public class MainActivity extends BaseActivity {
 		});
 		et_username = (EditText) findViewById(R.id.et_username);
 		et_password = (EditText) findViewById(R.id.et_password);
-		imageView = (ImageView) findViewById(R.id.imageView);
 		progressDialog = new ProgressDialog(mContext);
 		progressDialog.setMessage("saving images");
 		progressDialog.setCanceledOnTouchOutside(false);

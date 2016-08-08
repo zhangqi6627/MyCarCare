@@ -28,23 +28,23 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.qust.zq.carcare.activity.MainActivity"
-            android:label="@string/activity_login"
+            android:name="com.qust.zq.carcare.activity.LoginActivity"
+            android:label="@string/title_login"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
         </activity>
         <activity
             android:name="com.qust.zq.carcare.activity.MyCarListActivity"
-            android:label="@string/activity_mycar"
+            android:label="@string/title_mycar"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
         </activity>
         <activity
             android:name="com.qust.zq.carcare.activity.CarSelectActivity"
-            android:label="@string/activity_select"
+            android:label="@string/title_select"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
         </activity>
         <activity
             android:name="com.qust.zq.carcare.activity.CarCareActivity"
-            android:label="@string/activity_carcare"
+            android:label="@string/title_carcare"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
         </activity>
     </application>

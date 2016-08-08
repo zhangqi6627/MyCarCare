@@ -16,13 +16,14 @@ public class SplashActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_splash);
 		iv_logo = (ImageView) findViewById(R.id.iv_logo);
-		handler.sendEmptyMessageDelayed(1, 3000);
+		handler.sendEmptyMessageDelayed(1, 2000);
 	}
 	private Handler handler = new Handler() {
 		public void handleMessage(android.os.Message msg) {
 			switch (msg.what) {
 			case 1:
-				startActivity(new Intent());
+				startActivity(new Intent(mContext, LoginActivity.class));
+				finish();
 				break;
 			}
 		};

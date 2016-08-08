@@ -1,12 +1,10 @@
 package com.qust.zq.carcare.activity;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import com.qust.zq.carcare.R;
 import com.qust.zq.carcare.BaseActivity;
 import com.qust.zq.carcare.data.DatabaseHelper;
 import com.qust.zq.carcare.utils.BitmapLoader;
-import android.app.AlertDialog;
 import android.content.ContentValues;
 import android.content.Context;
 import android.content.Intent;
@@ -41,7 +39,7 @@ public class CarSelectActivity extends BaseActivity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_select);
+		addContentView(R.layout.activity_select);
 		brands = (Spinner) findViewById(R.id.brands);
 		dbHelper = new DatabaseHelper(mContext);
 		String[] brandNames = dbHelper.getBrands().toArray(new String[] {});
@@ -60,7 +58,6 @@ public class CarSelectActivity extends BaseActivity {
 			}
 			@Override
 			public void onNothingSelected(AdapterView<?> arg0) {
-				// TODO Auto-generated method stub
 				names.setEnabled(false);
 			}
 		});

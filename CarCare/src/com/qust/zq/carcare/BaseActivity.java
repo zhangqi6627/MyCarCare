@@ -4,6 +4,9 @@ import com.qust.zq.carcare.data.DatabaseHelper;
 import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -20,6 +23,9 @@ public class BaseActivity extends Activity {
 		tv_title = (TextView) findViewById(R.id.tv_title);
 		tv_title.setText(getTitle());
 		container = (LinearLayout) findViewById(R.id.container);
+	}
+	protected void addContentView(int resId){
+		LayoutInflater.from(mContext).inflate(resId, container);
 	}
 	protected void setTitleStr(int res) {
 		if (tv_title != null) {
