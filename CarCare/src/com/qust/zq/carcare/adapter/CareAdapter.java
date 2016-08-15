@@ -40,18 +40,19 @@ public class CareAdapter extends BaseAdapter {
 		// TODO Auto-generated method stub
 		ViewHolder viewHolder = null;
 		if (converView == null) {
-			converView = LayoutInflater.from(mContext).inflate(R.layout.adapter_car, null, false);
+			converView = LayoutInflater.from(mContext).inflate(R.layout.adapter_care, null, false);
 			viewHolder = new ViewHolder();
-			viewHolder.imageView = (ImageView) converView.findViewById(R.id.iv_car);
-			viewHolder.textView = (TextView) converView.findViewById(R.id.tv_name);
+			viewHolder.imageView = (ImageView) converView.findViewById(R.id.imageView);
+			viewHolder.textView = (TextView) converView.findViewById(R.id.textView);
 			converView.setTag(viewHolder);
 		} else {
 			viewHolder = (ViewHolder) converView.getTag();
 		}
 		HashMap<String, Object> carInfo = careItems.get(position);
-		String name = (String) carInfo.get("name");
-		viewHolder.imageView.setImageResource(BitmapLoader.getCarBitmapByName(name));
-		viewHolder.textView.setText(name);
+		String title = (String) carInfo.get("title");
+		int image = (Integer) carInfo.get("image");
+		viewHolder.imageView.setImageResource(image);
+		viewHolder.textView.setText(title);
 		return converView;
 	}
 	private static class ViewHolder{
